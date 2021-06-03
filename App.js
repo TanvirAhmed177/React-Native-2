@@ -4,6 +4,7 @@ import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 
 import Tabs from "./navigation/tabs";
 import { useFonts } from "expo-font";
+import { BookDetail } from "./screens/";
 
 const theme = {
   ...DefaultTheme,
@@ -35,6 +36,9 @@ const App = () => {
       >
         {/* Tabs */}
         <Stack.Screen name="Home" component={Tabs} />
+        
+        {/* Screens */}
+        <Stack.Screen name="BookDetail" component={BookDetail} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
