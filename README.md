@@ -1,4 +1,4 @@
-# React-Native-2
+# Turn The Page
 
 A React Native application build using react library that can be used as book store.
 
